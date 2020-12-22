@@ -18,7 +18,7 @@ public class PochtaTests extends TestBase {
     void mainPageTest() {
         open("https://otpravka.pochta.ru/");
 
-        $(".header__logo").shouldHave(text("Отправка писем и посылок"));
+        $(".inline-helper--title").shouldHave(text("Отправка писем и посылок"));
     }
 
     @Test
